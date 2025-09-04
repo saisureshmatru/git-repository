@@ -27,7 +27,9 @@ resource "aws_instance" "ec2" {
   iam_instance_profile = aws_iam_instance_profile.ec2_instance_profile.name
 
   tags = {
-    Name = "public-2"
+
+    Name = "suresh"
+
   }
 }
 
